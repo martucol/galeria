@@ -1,0 +1,19 @@
+{
+  "name": "espectaculares",
+  "version": "1.0.0",
+  "description": "espectacular retro nostalgic website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gif",
+    "retro"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "figlet": "^1.2.4"
+  }
+}
