@@ -44,7 +44,6 @@ nav a {
 	font-family: "Old English Five", sans-serif;
 	font-weight: 600;
 	font-size: 16px;
-
 }
 
 .link {
@@ -143,9 +142,6 @@ footer img {
 
 
 @media all and (max-width: 620px){
-	#title {
-		display: none;
-	}
 	.top img {
 		min-width: 60px;
 	}
@@ -173,14 +169,8 @@ footer img {
 	margin: auto;
 	
 	width: 400px;
-	padding: 90px 30px;
+	padding: 150px 30px;
 	height: 220px;
-
-	background-image: url('assets/pociones/title.gif');
-	background-size: 100%;
-	background-position: center;
-	background-size: 65%;
-	background-repeat: no-repeat;
 }
 
 @media all and (max-width: 450px){
