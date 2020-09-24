@@ -19,7 +19,7 @@ header {
 	max-width: 10%;
 }
 
-#title {
+.title {
 	width: auto;
 	height: auto;
 	max-width: 80%;
@@ -68,7 +68,7 @@ main {
 }
 
 .container {
-	padding:30px 30px 5px 30px;
+	padding: 2rem;
 	height: 100%;
 	width: 80%;
 	display: flex;
@@ -78,13 +78,21 @@ main {
 }
 
 .question {
-	width: 200px;
-	height: 200px;
-	margin: 10px;
-	padding:10px;
+	width: auto;
+	height: 260px;
+	margin: 1rem;
+	padding: 10px;
 	position: relative;
 	text-align: center;
 }
+
+@media all and (max-width: 620px){
+	.question {
+		width: 100%;
+		height: auto;
+		margin: 1rem auto;
+	}
+} 
 
 .frame{
 	width: 100%;
@@ -107,8 +115,6 @@ main {
 	visibility: visible;
 	opacity: 1;
 	transition: opacity 0.5s;
-
-
 }
 
 .number {
@@ -128,29 +134,8 @@ main {
 	margin-top: 15px;
 	z-index: 1;
 	width: 80%;
-	height: 80%;
-	opacity: 0;
-	transition: opacity 1s;
-	
+	height: 80%;	
 }
-
-.question:hover .item {
-	opacity: 1;
-}
-
-.question:hover .icon {
-	opacity: 0;	
-}
-
-
-.question:active .item {
-	opacity: 1;
-}
-
-.question:active .icon {
-	opacity: 0;	
-}
-
 
 
 footer img {
@@ -184,7 +169,7 @@ footer img {
 	box-sizing: border-box;
 	display: block;
 	font-size: 40px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Comic Sans', monospace;
 	color: white;
 	font-weight: bolder;
 	margin: auto;
