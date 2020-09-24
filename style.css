@@ -78,8 +78,8 @@ main {
 }
 
 .question {
-	width: auto;
-	height: 260px;
+	width: 100%;
+	height: auto;
 	margin: 1rem;
 	padding: 10px;
 	position: relative;
@@ -131,10 +131,8 @@ main {
 }
 
 .question .item{
-	margin-top: 15px;
-	z-index: 1;
-	width: 80%;
-	height: 80%;	
+	width: 60%;
+	margin: 4rem auto 5rem auto
 }
 
 
@@ -180,6 +178,9 @@ footer img {
 
 	background-image: url('assets/pociones/title.gif');
 	background-size: 100%;
+	background-position: center;
+	background-size: 65%;
+	background-repeat: no-repeat;
 }
 
 @media all and (max-width: 450px){
